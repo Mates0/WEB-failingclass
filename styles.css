@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.napis {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Corbel;
+}
+
+.boxes {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-family: Corbel;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 13px;
+    text-decoration: none;
+    border: solid black 1px;
+    color: white;
+    background-color: green;
+    width: 170px;
+    height: 35px;
+}
+
+.buttonaddgrade {
+    margin-right: 20px;
+
+}
+
+.buttonaverage {
+    margin-left: 20px;
+    background-color: blue;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    margin: 1%;
+}
+
+h2 {
+    font-family: Corbel;
+
+}
+.average {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+}
