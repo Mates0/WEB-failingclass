@@ -9,8 +9,8 @@ document.getElementById("calculatebox").onclick = function () {
 
 function addbox() {
     let writeidbox = document.getElementById("idboxes")
-    let gradecount = "<input type='number' id='grade'>\n" +
-        "<input type='number' id='weight'>\n" + "<br>"
+    let gradecount = "<input type='number' id='grade' placeholder='Grade'>\n" +
+        "<input type='number' id='weight' placeholder='Weight'>\n" + "<br>"
     writeidbox.innerHTML += gradecount
     let grade = document.getElementById("grade")
     let weight = document.getElementById("weight")
@@ -38,11 +38,11 @@ function calculate() {
     average = sumgrade / sumweight
     if (average > 40) {
         let output = document.getElementById("averageprint")
-        let output2 = "<h2>Průměr:</h2>" + parseInt(average) + " %" + "<h2>Am I failing my class?</h2>" + "<p>no</p>"
+        let output2 = "<h2>Average:</h2>" + parseInt(average) + " %" + "<h2>Am I failing my class?</h2>" + "<p>no</p>"
         output.innerHTML += output2
     } else {
         let output = document.getElementById("averageprint")
-        let output2 = "<h2>Průměr:</h2>" + parseInt(average) + " %" + "<h2>Am I failing my class?</h2>" + "<p>yes</p>"
+        let output2 = "<h2>Average:</h2>" + parseInt(average) + " %" + "<h2>Am I failing my class?</h2>" + "<p>yes</p>"
         output.innerHTML += output2
     }
 }
